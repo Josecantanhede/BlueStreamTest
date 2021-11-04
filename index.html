@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.css" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link rel="icon" type="image/png" href="assets/img/ico.png"/>
+
+    <title>Bluestream</title>
+  </head>
+  <body>
+    <div class="site-container">
+      <div class="site-wrapper">
+        <nav
+          id="top-navbar"
+          class="navbar navbar-expand-lg navbar-light z-15"
+          aria-label="Navbar"
+        >
+          <div class="nav-bar-container container-fluid">
+            <a
+              class="navbar-brand d-lg-none"
+              href="#intro-section"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+            >
+              <img class="logo" src="assets/img/logo.png" />
+            </a>
+            <span class="frs d-md-block"></span>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarfull"
+              aria-controls="navbarfull"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarfull">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#services-section"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
+                    >Services</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#projects-section"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
+                    >Projects</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#team-section"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
+                    >Team</a
+                  >
+                </li>
+                <li class="nav-item d-none d-lg-block">
+                  <a
+                    class="navbar-brand"
+                    href="#intro-section"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
+                  >
+                    <img class="logo" src="assets/img/logo.png" />
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#clients-section"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
+                    >Clients</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#values-section"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
+                    >Values</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#contact-section"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
+                  >
+                    <span class="button-highlight">Contact</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Intro Section -->
+        <section id="intro-section" class="intro">
+          <div class="intro-content">
+            <h2 class="t-shadow slide-left">
+              Your industry leader <br />
+              in all things MEP.
+            </h2>
+            <div class="intro-description slide-left">
+              <p class="t-shadow">
+                Full service mechanical, electric, plumbing and fire suppression
+                contractor providing a wide range of services and expert
+                knowledge in large scale facilites across the nation.
+              </p>
+            </div>
+            <div class="van-container slide-right">
+              <img src="assets/img/van.png" />
+            </div>
+            <div class="contact-now-button">
+              <a id="contactNowButton" href="#contact-section">
+                <span>Contact Now</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services-section" class="services">
+          <div class="services-illustration d-none d-md-block"></div>
+          <div class="services-content container-fluid">
+            <h2 class="slide-right">Services</h2>
+            <div
+              class="services-description slide-right container-fluid p-0 m-0"
+            >
+              <p class="m-0">
+                Full service mechanical, electric, plumbing and fire suppression
+                contractor providing a wide range of services in the commercial,
+                educational, and hospitality industries with successful
+                installations across the United States and the US Virgin
+                Islands. Our team has expert knowledge in many large scale
+                facilites such as Hotels, Prisons, Universities, School
+                Districs, High Rise Multi-tenant Housing Authorities, and
+                Military Bases. We also have a division that takes care of water
+                conservation, solar, thermal, and other niche technologies.
+              </p>
+            </div>
+            <div class="services-token">
+              <img src="assets/img/services-token.png" />
+            </div>
+          </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects-section" class="projects">
+          <div class="projects-content">
+            <div class="projects-title slide-left z-10">
+              <h2 class="t-shadow">Our Projects</h2>
+            </div>
+
+            <!-- Projects Carousel -->
+            <div
+              id="projectsCarousel"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <!-- Carousel bottom nav -->
+              <div class="carousel-indicators z-10">
+                <button
+                  type="button"
+                  data-bs-target="#projectsCarousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#projectsCarousel"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#projectsCarousel"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#projectsCarousel"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#projectsCarousel"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                ></button>
+              </div>
+
+              <div class="carousel-inner">
+                <!-- Carousel Overlay in order to apply shading effect -->
+                <div class="carousel-opacitator"></div>
+
+                <!-- Carousel Items -->
+                <div class="carousel-item active">
+                  <!-- Project 1 name / description -->
+                  <div class="project-name-container">
+                    <span class="project-name z-10 t-shadow">
+                      Project 1 name / description
+                    </span>
+                  </div>
+                  <img
+                    src="assets/img/projects-carousel/1.png"
+                    class="d-block w-100"
+                    alt="Project 1"
+                  />
+                </div>
+
+                <div class="carousel-item">
+                  <!-- Project 2 name / description -->
+                  <div class="project-name-container">
+                    <span class="project-name z-10 t-shadow">
+                      Project 2 name / description
+                    </span>
+                  </div>
+                  <img
+                    src="assets/img/projects-carousel/2.png"
+                    class="d-block w-100"
+                    alt="Project 2"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <div class="project-name-container">
+                    <!-- Project 3 name / description -->
+                    <span class="project-name z-10 t-shadow">
+                      Project 3 name / description
+                    </span>
+                  </div>
+                  <img
+                    src="assets/img/projects-carousel/3.png"
+                    class="d-block w-100"
+                    alt="Project 3"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <div class="project-name-container">
+                    <!-- Project 4 name / description -->
+                    <span class="project-name z-10 t-shadow">
+                      Project 4 name / description
+                    </span>
+                  </div>
+                  <img
+                    src="assets/img/projects-carousel/4.png"
+                    class="d-block w-100"
+                    alt="Project 4"
+                  />
+                </div>
+                
+                <div class="carousel-item">
+                  <div class="project-name-container">
+                    <!-- Project 5 name / description -->
+                    <span class="project-name z-10 t-shadow">
+                      Project 5 name / description
+                    </span>
+                  </div>
+                  <img
+                    src="assets/img/projects-carousel/2.png"
+                    class="d-block w-100"
+                    alt="Project 5"
+                  />
+                </div>
+              </div>
+
+              <!-- Carousel Buttons -->
+              <button
+                class="carousel-control-prev z-10"
+                type="button"
+                data-bs-target="#projectsCarousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next z-10"
+                type="button"
+                data-bs-target="#projectsCarousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section id="team-section" class="team">
+          <div
+            id="teammates-picker"
+            class="
+              teammate-picker
+              d-none d-xs-none d-sm-none d-md-none d-lg-block
+            "
+          >
+            <h2 class="our-team-title slide-left">Our Team</h2>
+            <div id="teammates-list" class="teammate-list slide-right">
+              <div class="teammate-item on-display" data-for="#teammate-ed">
+                <h3>
+                  Ed Foran<br />
+                  <span>Founder</span>
+                </h3>
+              </div>
+
+              <div class="teammate-item" data-for="#teammate-john">
+                <h3>
+                  John Gavin <br />
+                  <span>VP of Pre-Construction Services</span>
+                </h3>
+              </div>
+
+              <div class="teammate-item" data-for="#teammate-william">
+                <h3>
+                  William Foran <br />
+                  <span>Purchasing Manager</span>
+                </h3>
+              </div>
+
+              <div class="teammate-item" data-for="#teammate-harry">
+                <h3>
+                  Harry Dellitalia <br />
+                  <span>Senior Project Manager</span>
+                </h3>
+              </div>
+
+              <div class="teammate-item" data-for="#teammate-erik">
+                <h3>
+                  Erik Ruiz <br />
+                  <span>Project Manager</span>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div
+            id="teammates-displayer"
+            class="
+              teammate-displayer
+              d-none d-xs-none d-sm-none d-md-none d-lg-block
+            "
+          >
+            <div id="teammate-ed" class="teammate on-display">
+              <h2 class="teammate-name">
+                Ed Foran, <span class="teammate-role"> Founder </span>
+              </h2>
+              <div class="teammate-bio container-fluid m-0 p-0">
+                <p>
+                  Ed founded the company that would eventually become Bluestream
+                  about 18 years ago when he came to Florida from NY. His early
+                  career life was fill with experiences in plumbing, gas, and
+                  heavy equipment work as an apprentice and eventually a foreman
+                  for some of the biggest plumbing companies in the Bronx and
+                  Queens. Suffice it to say, that he gained real life knowledge
+                  coupled with the toughness and work ethics that comes from
+                  working in NY and is using them to lead the extraordinary team
+                  that makes Bluestream. With over 30 years of experience under
+                  his belt, being a master of trades, Ed brings a wealth of
+                  knowledge that is second to none in the industry.
+                </p>
+              </div>
+              <img
+                class="teammate-picture"
+                src="assets/img/teammates/ed-foran.png"
+              />
+            </div>
+
+            <div id="teammate-john" class="teammate">
+              <h2 class="teammate-name">
+                John Gavin, <br />
+                <span class="teammate-role">
+                  VP of Pre-Construction Services
+                </span>
+              </h2>
+              <div class="teammate-bio container-fluid m-0 p-0">
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+              </div>
+              <img
+                class="teammate-picture"
+                src="assets/img/teammates/teammate-placeholder.png"
+              />
+            </div>
+
+            <div id="teammate-william" class="teammate">
+              <h2 class="teammate-name">
+                William Foran,
+                <span class="teammate-role"> Purchasing Manager </span>
+              </h2>
+              <div class="teammate-bio container-fluid m-0 p-0">
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+              </div>
+              <img
+                class="teammate-picture"
+                src="assets/img/teammates/teammate-placeholder.png"
+              />
+            </div>
+
+            <div id="teammate-harry" class="teammate">
+              <h2 class="teammate-name">
+                Harry Dellitalia, <br />
+                <span class="teammate-role"> Senior Project Manager </span>
+              </h2>
+              <div class="teammate-bio container-fluid m-0 p-0">
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+              </div>
+              <img
+                class="teammate-picture"
+                src="assets/img/teammates/teammate-placeholder.png"
+              />
+            </div>
+
+            <div id="teammate-erik" class="teammate">
+              <h2 class="teammate-name">
+                Erik Ruiz,
+                <span class="teammate-role"> Project Manager </span>
+              </h2>
+              <div class="teammate-bio container-fluid m-0 p-0">
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+              </div>
+              <img
+                class="teammate-picture"
+                src="assets/img/teammates/teammate-placeholder.png"
+              />
+            </div>
+          </div>
+          <div
+            class="
+              team-carousel
+              d-block d-xs-block d-sm-block d-md-block d-lg-none
+            "
+          >
+            <!-- Team Carousel -->
+            <div
+              id="teamCarousel"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <!-- Carousel Items -->
+
+                <!-- Ed Foran Carousel Item -->
+                <div class="carousel-item active">
+                  <div class="teammate">
+                    <h2 class="teammate-name">
+                      Ed Foran, <br />
+                      <span class="teammate-role"> Founder </span>
+                    </h2>
+                    <div class="teammate-bio container-fluid m-0 p-0">
+                      <p>
+                        Ed founded the company that would eventually become
+                        Bluestream about 18 years ago when he came to Florida
+                        from NY. His early career life was fill with experiences
+                        in plumbing, gas, and heavy equipment work as an
+                        apprentice and eventually a foreman for some of the
+                        biggest plumbing companies in the Bronx and Queens.
+                        Suffice it to say, that he gained real life knowledge
+                        coupled with the toughness and work ethics that comes
+                        from working in NY and is using them to lead the
+                        extraordinary team that makes Bluestream. With over 30
+                        years of experience under his belt, being a master of
+                        trades, Ed brings a wealth of knowledge that is second
+                        to none in the industry.
+                      </p>
+                    </div>
+                    <img
+                      class="teammate-picture"
+                      src="assets/img/teammates/ed-foran.png"
+                    />
+                  </div>
+                </div>
+
+                <!-- William Foran Carousel Item -->
+                <div class="carousel-item">
+                  <div class="teammate">
+                    <h2 class="teammate-name">
+                      John Gavin, <br />
+                      <span class="teammate-role">
+                        VP of Pre-Construction <br />
+                        Services
+                      </span>
+                    </h2>
+                    <div class="teammate-bio container-fluid m-0 p-0">
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of
+                        Letraset sheets containing Lorem Ipsum passages, and
+                        more recently with desktop publishing software like
+                        Aldus PageMaker including versions of Lorem Ipsum.
+                      </p>
+                    </div>
+                    <img
+                      class="teammate-picture"
+                      src="assets/img/teammates/teammate-placeholder.png"
+                    />
+                  </div>
+                </div>
+
+                <!-- William Foran Carousel Item -->
+                <div class="carousel-item">
+                  <div class="teammate">
+                    <h2 class="teammate-name">
+                      William Foran, <br />
+                      <span class="teammate-role"> Purchasing Manager </span>
+                    </h2>
+                    <div class="teammate-bio container-fluid m-0 p-0">
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of
+                        Letraset sheets containing Lorem Ipsum passages, and
+                        more recently with desktop publishing software like
+                        Aldus PageMaker including versions of Lorem Ipsum.
+                      </p>
+                    </div>
+                    <img
+                      class="teammate-picture"
+                      src="assets/img/teammates/teammate-placeholder.png"
+                    />
+                  </div>
+                </div>
+
+                <!-- Harry Dellitalia Carousel Item -->
+                <div class="carousel-item">
+                  <div class="teammate">
+                    <h2 class="teammate-name small">
+                      Harry Dellitalia, <br />
+                      <span class="teammate-role">
+                        Senior Project Manager
+                      </span>
+                    </h2>
+                    <div class="teammate-bio container-fluid m-0 p-0">
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of
+                        Letraset sheets containing Lorem Ipsum passages, and
+                        more recently with desktop publishing software like
+                        Aldus PageMaker including versions of Lorem Ipsum.
+                      </p>
+                    </div>
+                    <img
+                      class="teammate-picture"
+                      src="assets/img/teammates/teammate-placeholder.png"
+                    />
+                  </div>
+                </div>
+
+                <!-- Erik Ruiz Carousel Item -->
+                <div class="carousel-item">
+                  <div class="teammate">
+                    <h2 class="teammate-name">
+                      Erik Ruiz, <br />
+                      <span class="teammate-role"> Project Manager </span>
+                    </h2>
+                    <div class="teammate-bio container-fluid m-0 p-0">
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of
+                        Letraset sheets containing Lorem Ipsum passages, and
+                        more recently with desktop publishing software like
+                        Aldus PageMaker including versions of Lorem Ipsum.
+                      </p>
+                    </div>
+                    <img
+                      class="teammate-picture"
+                      src="assets/img/teammates/teammate-placeholder.png"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Carousel Buttons -->
+              <button
+                class="carousel-control-prev z-10"
+                type="button"
+                data-bs-target="#teamCarousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next z-10"
+                type="button"
+                data-bs-target="#teamCarousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section id="clients-section" class="clients">
+          <h2>Our Clients</h2>
+          <div class="owl-carousel clients-carousel">
+            <div class="client-logo">
+              <img src="assets/img/clients/hilton.png" />
+            </div>
+            <div class="client-logo">
+              <img src="assets/img/clients/turner.png" />
+            </div>
+            <div class="client-logo">
+              <img src="assets/img/clients/disney.png" />
+            </div>
+            <div class="client-logo">
+              <img src="assets/img/clients/jhonson-controls.png" />
+            </div>
+            <div class="client-logo">
+              <img src="assets/img/clients/trane.png" />
+            </div>
+            <div class="client-logo">
+              <img src="assets/img/clients/marriott.png" />
+            </div>
+          </div>
+          <div class="clients-description">
+            <p>
+              We have the privilege to continuously partner with some of the
+              most engaging, diverse, and influential companies in the industry.
+              Turner Construction, Disney’s FAM, Johnson Controls, and Trane
+              among others. We also work with specialized General Contractors
+              for the Hospitality Industry that are prequalified and approved to
+              work for Marriott, and Hyatt such as Continental Contractors,
+              First Finish, and Land-Ron, Inc.
+            </p>
+          </div>
+        </section>
+        <section id="values-section" class="values">
+          <img class="values-logo" src="assets/img/logo-white.png" />
+          <h2>Our Values</h2>
+          <p class="values-description">
+            Bluestream’s core values are essential to the way we conduct our
+            business, how we treat our clients, and most importantly, how we
+            treat each other. Our Team understands that the company’s decisions
+            and growth is guided by these principles, and they practice them on
+            a daily basis. Service, teamwork, safety, and integrity will lead
+            all of our project efforts.
+          </p>
+        </section>
+        <section id="contact-section" class="contact">
+          <div class="contact-container">
+            <div class="contact-title">
+              <h2>Contact</h2>
+            </div>
+            <div class="contact-content">
+              <div class="contact-info">
+                <div class="contact-info-item">
+                  <div class="icon">
+                    <a href="tel:+1 1 800 234 3445">
+                      <img src="assets/img/icon-phone.png" />
+                    </a>
+                  </div>
+                  <div class="text">
+                    <a href="tel:+1 1 800 234 3445">+1 1 800 234 3445</a>
+                  </div>
+                </div>
+
+                <div class="contact-info-item">
+                  <div class="icon">
+                    <a href="mailto:contact@bluestream.com">
+                      <img src="assets/img/icon-envelope.png" />
+                    </a>
+                  </div>
+                  <div class="text">
+                    <a href="mailto:contact@bluestream.com"
+                      >contact@bluestream.com</a
+                    >
+                  </div>
+                </div>
+
+                <div class="contact-info-item">
+                  <div class="icon">
+                    <a
+                      href="https://www.google.com/maps?q=+320+Main+St.+Orlando+Fl,+34761"
+                      target="_blank"
+                      ><img src="assets/img/icon-map-pin.png"
+                    /></a>
+                  </div>
+                  <div class="text">
+                    <a
+                      href="https://www.google.com/maps?q=+320+Main+St.+Orlando+Fl,+34761"
+                      target="_blank"
+                    >
+                      320 Main St. <br />
+                      Orlando Fl, 34761
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Map Commented -->
+              <!-- <div class="contact-info-item google-map d-none d-md-none d-lg-block"> -->
+                <!-- <iframe
+                  class="map d-none d-md-block"
+                  height="400"
+                  width="400"
+                  src="https://maps.google.com/maps?q=orlando%20fl%20main%20st%2034761&t=&z=19&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                ></iframe> -->
+
+                <!-- <iframe
+                  class="map d-xs-block d-sm-block d-md-none"
+                  height="300"
+                  width="300"
+                  src="https://maps.google.com/maps?q=orlando%20fl%20main%20st%2034761&t=&z=19&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                ></iframe> -->
+              <!-- </div> -->
+              <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form id="contact-form">
+                  <div class="field">
+                    <input type="text" minlength="2" name="name" placeholder="Name" required/>
+                  </div>
+                  
+                  <div class="field">
+                    <input type="email" name="email" placeholder="E-mail" required/>
+                  </div>
+                  
+                  <div class="field">
+                    <textarea name="message" minlength="10" placeholder="Your message here..." required></textarea>
+                  </div>
+
+                  <div class="button-bar">
+                    <div id="contactSubmitButton" class="contact-send-button">
+                      <a type="button">Send</a>
+                    </div>
+                    <div id="contactSendingLoader" class="sending-loader"></div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="footer-section" class="footer">
+          <div class="footer-logo">
+            <img src="assets/img/logo.png"/>
+          </div>
+          <hr />
+          <div class="footer-copyright">
+            <p>&copy; 2021 Bluestream All rights reserved</p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS! -->
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <!-- Jquery JS! -->
+    <script type="text/javascript" src="assets/js/jquery-3.6.0-min.js"></script>
+    <!-- Jquery Validate -->
+    <script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+    <!-- Validation Additional Methods  -->
+    <script type="text/javascript" src="assets/js/additional-methods.min.js"></script>
+    <!-- Owl Carousel! -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Main JS! -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+</html>
